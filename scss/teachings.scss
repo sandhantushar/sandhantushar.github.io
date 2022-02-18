@@ -1,0 +1,57 @@
+body {
+  background-color: #e6dace;
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+
+.teaching__container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.teaching {
+  animation: fadein 2s;
+  display: flex;
+  width: 50%;
+  background-color: #e6dace;
+  flex-wrap: wrap;
+  height: 88.5vh;
+  flex-flow: column;
+
+  &__title {
+    margin: 2rem 0 0 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  hr {
+    width: 100%;
+    margin-top: 0.4rem;
+  }
+
+  &__data {
+    width: 100%;
+    min-height: 10rem;
+    background-color: #fff;
+    top: 2rem;
+    margin-top: 2rem;
+
+    &__title{
+      color: rgb(0, 80, 225);
+      font-weight: bold;
+    }
+
+    p {
+      
+      margin: 1rem 0 0 1rem;
+      
+    }
+  }
+}

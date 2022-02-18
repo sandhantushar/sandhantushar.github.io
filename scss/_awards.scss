@@ -1,0 +1,32 @@
+.awards{
+    display: flex;
+    justify-content: space-around;
+    &__container{
+        animation: fadein 2s;
+        display: flex;
+        width: 50%;
+        background-color: #fff;
+        flex-wrap: wrap;
+        min-height: 35vh;
+        //margin-left: 15%;
+        margin-top: 2rem;
+        flex-flow: column;
+        padding-bottom: 1rem;
+        span:last-child {
+            margin: 1.1rem 0 0.3rem 1rem;
+        }
+        span{
+            p{
+                color:rgb(0,80,225);
+                margin: 0 1rem 0 1rem;
+                font-weight: bold;
+            }
+
+            ul{
+                margin-left: 1rem;
+            }
+            margin:0.6rem 1rem 0 1rem;
+            display: flex;
+        }
+    }
+}
